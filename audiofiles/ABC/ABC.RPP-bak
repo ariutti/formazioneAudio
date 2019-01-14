@@ -1,0 +1,485 @@
+<REAPER_PROJECT 0.1 "5.965/linux64" 1547320363
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3454 8 1 8 1 0 0 0
+  TIMEMODE 0 5 -1 30 0
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 0
+  ZOOM 15.08323759629642 0 0
+  VZOOMEX 15
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/audiofiles//ABC.wav"
+  RENDER_FMT 0 1 48000
+  RENDER_1X 0
+  RENDER_RANGE 2 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 589824
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxAAAA==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 39.8455567753949 0
+  SELECTION2 39.8455567753949 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 0
+  MASTER_SEL 0
+  <MASTERFXLIST
+    WNDRECT 411 426 845 434
+    SHOW 0
+    LASTSEL 0
+    DOCKED 0
+    BYPASS 0 0 0
+    <VST "VST: ReaGate (Cockos)" reagate.vst.so 0 "" 1919248244
+      dGdlcu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAFQAAAAAAAAAAAAQAA==
+      776t3g3wrd65IZI9ppvEOwrXozwAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAACc0QczAACAP5zRBzMAAIA/AAAAAAAAAAAAAAAALBYLPwAAAAAAAAAA
+      AAAQAAAA
+    >
+    FLOATPOS 0 0 0 0
+    FXID {2772AA01-4065-32AE-4A6B-679243753E60}
+    WAK 0
+  >
+  <MASTERPLAYSPEEDENV
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {22B90CC1-099B-F28D-5526-85BE4F1468DC}
+    NAME 434730__dersuperanton__alphabet-letters-abc-male
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 1
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {22B90CC1-099B-F28D-5526-85BE4F1468DC}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 4.872
+      SNAPOFFS 0
+      LENGTH 0.852
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {41A08C76-4513-AE73-FF8D-083992A6D12E}
+      IID 9
+      NAME 434730__dersuperanton__alphabet-letters-abc-male.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3A1E9CAD-5E54-6421-ADC1-931D7A63D301}
+      <SOURCE WAVE
+        FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/samples/434730__dersuperanton__alphabet-letters-abc-male.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.808
+      SNAPOFFS 0
+      LENGTH 0.732
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {4968CA72-C301-A728-A9EC-37897F867B70}
+      IID 12
+      NAME 434730__dersuperanton__alphabet-letters-abc-male.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 1.152
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {28E059B3-2496-AB29-6976-6619A87F363D}
+      <SOURCE WAVE
+        FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/samples/434730__dersuperanton__alphabet-letters-abc-male.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.636
+      SNAPOFFS 0
+      LENGTH 0.948
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {CF614BD6-EA94-A6F8-AB96-99B05D94B42D}
+      IID 13
+      NAME 434730__dersuperanton__alphabet-letters-abc-male.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 2.232
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D17FFACC-ECD7-FF98-103C-D588C84401C4}
+      <SOURCE WAVE
+        FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/samples/434730__dersuperanton__alphabet-letters-abc-male.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.668
+      SNAPOFFS 0
+      LENGTH 0.84
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {0CF6FE2C-1F13-248B-70C0-AF6D50D769A5}
+      IID 14
+      NAME 434730__dersuperanton__alphabet-letters-abc-male.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 3.66
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {16B54688-4E30-6AA1-44CA-8B48BA3FD84A}
+      <SOURCE WAVE
+        FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/samples/434730__dersuperanton__alphabet-letters-abc-male.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.58
+      SNAPOFFS 0
+      LENGTH 0.96
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {542882EB-6F2C-BBE0-9C77-C22D1DB86EB5}
+      IID 15
+      NAME 434730__dersuperanton__alphabet-letters-abc-male.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 5.004
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EBBB4B43-F28C-6996-FFE4-296F3872CFB4}
+      <SOURCE WAVE
+        FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/samples/434730__dersuperanton__alphabet-letters-abc-male.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.66
+      SNAPOFFS 0
+      LENGTH 0.816
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B885E9DF-E145-BA92-0B12-C93EF01B1D12}
+      IID 16
+      NAME 434730__dersuperanton__alphabet-letters-abc-male.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 6.36
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EE5B9073-E5D6-D550-96A4-1A6370D3F1A9}
+      <SOURCE WAVE
+        FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/samples/434730__dersuperanton__alphabet-letters-abc-male.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.64110262996586
+      SNAPOFFS 0
+      LENGTH 0.75555762962535
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {EB9644DA-8910-93EF-1FAF-F2FEEF9C5407}
+      IID 17
+      NAME 434730__dersuperanton__alphabet-letters-abc-male.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 7.728
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C20835B5-84E7-BCA2-5428-1FC4B2D1EA4A}
+      <SOURCE WAVE
+        FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/samples/434730__dersuperanton__alphabet-letters-abc-male.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.45185330653469
+      SNAPOFFS 0
+      LENGTH 0.99654770661586
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {55500D71-CB5C-E4D5-0F8E-E491F32D7C5A}
+      IID 18
+      NAME 434730__dersuperanton__alphabet-letters-abc-male.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 9.12540191524232
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A2B60C1F-1D48-10EF-3744-CB5F239DE379}
+      <SOURCE WAVE
+        FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/samples/434730__dersuperanton__alphabet-letters-abc-male.wav"
+      >
+    >
+    <ITEM
+      POSITION 12.63419804319756
+      SNAPOFFS 0
+      LENGTH 0.91209451113993
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {BBE27E5B-6A1F-56E6-DD7B-7EE6219407CD}
+      IID 19
+      NAME 434730__dersuperanton__alphabet-letters-abc-male.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 10.47665304285703
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9BC45606-46EE-83DE-5C27-D94CC0CC0D3A}
+      <SOURCE WAVE
+        FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/samples/434730__dersuperanton__alphabet-letters-abc-male.wav"
+      >
+    >
+    <ITEM
+      POSITION 13.58007383252786
+      SNAPOFFS 0
+      LENGTH 0.9245351097614
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {BBF8FEBB-C2C1-AEBC-A16F-040240D203ED}
+      IID 20
+      NAME 434730__dersuperanton__alphabet-letters-abc-male.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 11.70966969680545
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0EF8EFB4-0CA0-F77F-9B7C-AEA6FF4D6B1D}
+      <SOURCE WAVE
+        FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/samples/434730__dersuperanton__alphabet-letters-abc-male.wav"
+      >
+    >
+    <ITEM
+      POSITION 14.61040281733407
+      SNAPOFFS 0
+      LENGTH 0.76078317078335
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F8AEE725-3AA4-A969-A9D6-0B1D57DB7301}
+      IID 21
+      NAME 434730__dersuperanton__alphabet-letters-abc-male.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 13.10969428830645
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F47EA989-BCEC-90A5-05CB-EBE1E7B60340}
+      <SOURCE WAVE
+        FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/samples/434730__dersuperanton__alphabet-letters-abc-male.wav"
+      >
+    >
+    <ITEM
+      POSITION 15.48871605028364
+      SNAPOFFS 0
+      LENGTH 0.95097896347918
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F06ED9E7-8BBD-D3D5-4EF4-5011CDECBACF}
+      IID 22
+      NAME 434730__dersuperanton__alphabet-letters-abc-male.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 14.46483931126429
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {505ECF87-3FAB-FF8B-E801-CC4EA7FF00C0}
+      <SOURCE WAVE
+        FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/samples/434730__dersuperanton__alphabet-letters-abc-male.wav"
+      >
+    >
+    <ITEM
+      POSITION 16.55282631328022
+      SNAPOFFS 0
+      LENGTH 0.87965554121825
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C3448D56-CA8A-C98E-452B-030AF1C9F77F}
+      IID 23
+      NAME 434730__dersuperanton__alphabet-letters-abc-male.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 15.86753328239609
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {37117E39-EA01-A59A-BA01-6E0CD9317D9A}
+      <SOURCE WAVE
+        FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/samples/434730__dersuperanton__alphabet-letters-abc-male.wav"
+      >
+    >
+    <ITEM
+      POSITION 17.70138977175273
+      SNAPOFFS 0
+      LENGTH 18.90374307267455
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {56D6BFD3-29E8-1EED-C45E-4CA337EEE765}
+      IID 24
+      NAME 434730__dersuperanton__alphabet-letters-abc-male.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 17.31777620170184
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {67AA5B04-D474-1728-7DAA-881122377004}
+      <SOURCE WAVE
+        FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/samples/434730__dersuperanton__alphabet-letters-abc-male.wav"
+      >
+    >
+  >
+  <TRACK {1042D36F-83C3-F458-500C-21AF764732F2}
+    NAME 405423__straget__wall-clock-ticking
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 134 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {1042D36F-83C3-F458-500C-21AF764732F2}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 346 239 856 621
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 39.71295924868811
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {15A19825-7FE1-19B4-16DA-774310828AA3}
+      IID 11
+      NAME 405423__straget__wall-clock-ticking.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9145B086-05AD-7EB7-6F8E-ECBF0B66DA51}
+      <SOURCE WAVE
+        FILE "/home/nicola/Documents/dotdotdot/progetto_formazione_interna/samples/405423__straget__wall-clock-ticking.wav"
+      >
+    >
+  >
+>

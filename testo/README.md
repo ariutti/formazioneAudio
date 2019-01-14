@@ -1,0 +1,220 @@
+# README
+
+## Introduzione
+
+Introduzione agli strumenti per veloci correzione ai contenuti audio. Livelli, compressione, normalizzazione, alcuni esempi.
+
+Introduzione ad strumenti veloci per la riduzione del rumore nei contenuti audio.
+Approfondimento equalizzazione, gating, noise removal.
+
+## materiale necessario per il relatore
+
+* cavo a y oppure
+* scatola a y + cavo miniTRS-miniTRS + 2x cavi TS-TS
+* 2x altoparlanti
+* (opzionale) scheda audio
+
+## presequisiti
+
+Nessun prerequisito richiesto
+
+## materiale richiesto ai partecipanti
+
+### hardware
+
+* laptop
+* una paio di cuffie o auricolari (facoltativo)
+
+### software
+
+* installazione di Audacity (free software, multipiattaforma, gratuito)
+* installazione (facoltativa) di Reaper (fully-functional demo, economico, multipiattaforma)
+* scaricare una cartella di samples preparati
+
+### Audacity plugins
+
+Scritti in [Nyquist](https://en.wikipedia.org/wiki/Nyquist_(programming_language))
+
+* [installing](https://wiki.audacityteam.org/wiki/Download_Nyquist_Plug-ins#install)
+* [gate audacity](https://wiki.audacityteam.org/wiki/Nyquist_Effect_Plug-ins#Noise_Gate)
+
+
+## a che domande dobbiamo rispondere?
+
+* finalizzando il tutto alla pubblicazione su Youtube (musica e altro hanno altre regole)
+* volume basso o alto!
+* suona male? ha un buon contenuto in frequenza?
+
+
+## Caratteristica 1: ampiezza (perturbazione - livello - volume)
+
+souno è una perturbazione della pressione dello stato di quiete delle particelle di un mezzo elastico (gassoso, solido o liquido)
+particelle di un mezzo elastico compressione e rarefazione
+
+[gif animata]()
+
+ampiezza di picco
+ampiezza picco picco
+ampiezza RMS (valore efficiace)
+
+Pa (Pascal)
+20µPa minima ampiezza percepibile da un orecchio medio (link)[https://en.wikipedia.org/wiki/Sound_pressure#Examples_of_sound_pressure]
+100 Pa - la pressione sonora oltre alla quale si determinano pesanti danni al sistema uditivo
+1 Pa = 94dBSPL
+
+la risposta del nostro sistema uditivo non è sufficientemente rapida da consentire la percezione completa dell'alternarsi di picchi di compressione e rarefazione.
+Questo perchè il nostro orecchio lavora su delle medie (RMS - media quadratica sotto radice) temporali effettuate per altro ad intervalli regolari di tempo ( 50 ms)
+la scala logaritmica si usa per comodità di rappresentazione (il range che ci porta da 20µPa a 100Pa si estende su 8 oridini di grandezza metre una scala logaritmica comprime il tutto).
+
+il decibel ovvero la decima parte del Bel
+il Bel non è una unità di misura come potrebbe esserlo il Volt, il metro o il litro.
+Si tratta piuttosto di una masura di un rapporto (relativa).
+
+Se io dico che il valore A è il doppio del valore B ecco che uso il numero 2 non tanto in termini assoluti quanto per descrivere A in relazione a B. Se volessimo dire la stessa cosa sfruttando il concetto di dB allora diremmo che A è dB maggiore di B.
+Si basano sui logaritmi che possiamo tralasciare
+
+ma pensiamo a quanto è più semplice usare i dB piuttosto che dire 0.5, 0.24, 10000 volte di più, 100000 volte di più etc
+
+1 Bel rappresenta la differenza in una scala relativa di valori con potenza 10
+relativa significa con un riferimento
+
+più vicino al nostro sistema percettivo 1Pa - 2Pa è percepito loud il doppio proprio come 50pa - 100pa (6dB)
+20 log(valore da misurare / valore di riferimento)
+
+curve isofoniche accenni
+
+## Audio digitale accenni
+
+* frequenza di campionamento / bit depth
+* mono / stero / multicanale
+*
+
+### Esercizio A: dialogo-fireworks.wav
+
+audacity
+
+**Parentesi**: userò due tool in modo intercambiabile, principalmente allo scopo di mostrarvi al meglio le cose
+e dal momento che ogni tool ha i propri punti di forza useremo l'uno o l'altro a seconda dei particolari su cui ci focalizzeremo
+cercherò di mostrarvi  come si fa sia in audacity che in reaper
+
+carica il file
+ascoltiamolo
+obiettivo (alzare il volume)
+vediamo i samples (super zoom)
+
+la prima cosa che ci viene im mente amplificatione
+usiamo un plugin - che cos'è?
+
+amplificazione
+moltiplicare significa
+mantiene inalterati gli equilibri dinamici tra i suoni presenti nel materiale audio originale.
+
+amplifichiamo di 12dB (moltiplichiamo i sample per un fattore 4)
+i fireworks clippano (come si visualizzano i clip?)
+
+annulliamo
+meglio (?) un sistema chiamato normalizzazione
+
+(che cosa fa normalize?) effettua una amplificazione del segnale audio
+andando a moltiplicare i valori numerici di ciascun samples per una costante impostata
+
+
+stabilisce lui un livello di amplificazione adeguato basandosi sul sample maggiore
+non molto efficacie --> la voce è ancora bassa
+
+ci piaceva con l'amplificazione? sì
+torniamo ad ampligicare allora
+dove sono i problemi?
+
+tagliamo il primo firework sovrascrivendogli il silenzio
+eventuale fade in (smoothing)
+
+altrove effettuiamo una automazione del volume
+
+esportazione
+
+---
+
+### Esercizio B: ABC.wav
+
+Reaper
+carichiamo
+possiamo cominciare con il normalizzarlo
+
+ascoltiamolo
+elementi estranei
+
+potremmo scrivere il silenzio (in reaper è più un fatto di taglia)
+infattibile in termini di sbatti
+infattibile perchè può capitare di sbagliarsi e sovrascrivere audio utile
+un processo automatico --> gate
+
+Gate
+che cosa è e come funziona
+
+catena audio in/out
+curva lineare delle ampiezze
+
+[illustrazione 1]
+
+[illustrazione 2]
+
+ora ci serve applicare il gate come si fa?
+click su fx, cerchi gate, inserisci gate
+avvantaggiamoci dell'interfaccia grafica che è un po' più intuitiva
+
+modificate la th è già solo così dovreste avere l'effetto desiderato, il clock è sparito
+
+Perchè non funziona sempre?
+a volte il contributo utile è miscelato al contributo indesiderato
+compromesso
+
+esportazione in Reaper
+
+## Caratteristica 2: frequenze (contenuto spettrale)
+
+merlo
+
+eventualmente chirp
+crea un chirp da 20 a 20000 durata 10s
+mostra lo spettrogramma
+fai vedere le frequenze
+
+shamekia
+
+**female_hum_high_tremolo.wav**
+hum ronza 50Hz --> equalizzatore
+
+reaper FIR con **noise_snare.wav**
+noise remover (learn - apply)
+[Audacity - Noise Reduction](https://manual.audacityteam.org/man/noise_reduction.html)
+
+### PRO
+
+compressione
+limiter dipende dal software a volte sfuggono
+quindi brick wall limiter (event horizon)
+fallo vedere con fireworks
+
+
+## PS
+
+aliasing - rolling shutter effect/wagon wheel effect
+guadagno, va bene nel 90% dei casi
+esempio (in cui se tiri su non viene su un rumore di fondo esagerato)
+esempio in cui vorresti tirare ancora più su ma il suono clippa
+
+processori di dinamica: compressore
+ratio, threshold, tempi di attacco e rilascio
+limiter (al massimo)
+
+Introduzione su livelli di volume
+standard ITU
+
+[loudness war]()
+[alignment level(https://en.wikipedia.org/wiki/Alignment_level) = -18dBFS
+
+sistema percettivo (differenze tra individui) per questo si crea uno standard di riferimento
+
+Articolo interessante a riguardo sul sito di T.C. ELectronics
+https://www.tcelectronic.com/brand/tcelectronic/loudness-explained#googtrans(en|en)
