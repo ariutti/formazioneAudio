@@ -46,7 +46,7 @@ Scritti in [Nyquist](https://en.wikipedia.org/wiki/Nyquist_(programming_language
 * suona male? ha un buon contenuto in frequenza?
 
 
-## Caratteristica 1: ampiezza (perturbazione - livello - volume)
+## Caratteristica 1: ampiezza (perturbazione - livello - volume) (30 minuti)
 
 souno è una perturbazione della pressione dello stato di quiete delle particelle di un mezzo elastico (gassoso, solido o liquido)
 particelle di un mezzo elastico compressione e rarefazione
@@ -89,7 +89,7 @@ curve isofoniche accenni
 * mono / stero / multicanale
 *
 
-### Esercizio A: dialogo-fireworks.wav
+### Esercizio A: dialogo-fireworks.wav (30 minuti)
 
 audacity
 
@@ -135,7 +135,7 @@ esportazione
 
 ---
 
-### Esercizio B: ABC.wav
+### Esercizio B: ABC.wav (25minuti)
 
 Reaper
 carichiamo
@@ -165,6 +165,10 @@ avvantaggiamoci dell'interfaccia grafica che è un po' più intuitiva
 
 modificate la th è già solo così dovreste avere l'effetto desiderato, il clock è sparito
 
+Anche la voce potrebbe cancellarsi per via del fatto che ha un inviluppo
+
+![grafico dell'inviluppo]()
+
 Perchè non funziona sempre?
 a volte il contributo utile è miscelato al contributo indesiderato
 compromesso
@@ -173,21 +177,38 @@ esportazione in Reaper
 
 ## Caratteristica 2: frequenze (contenuto spettrale)
 
-merlo
+* merlo
 
-eventualmente chirp
+* eventualmente chirp
 crea un chirp da 20 a 20000 durata 10s
 mostra lo spettrogramma
 fai vedere le frequenze
 
-shamekia
+* shamekia
+indagine sui diversi tipi di filtro, equalizzatore (peaking e shelving)
+per enfatizzare o attenuare l'energia di certe vibrazioni
+mantendo le latre inalterate (o quasi :)
 
-**female_hum_high_tremolo.wav**
+### Esercizio C: female_hum_high_tremolo.wav (20 minuti)
+
 hum ronza 50Hz --> equalizzatore
 
-reaper FIR con **noise_snare.wav**
+### Esercizio D: noise_snare.wav (20 minuti)
+
+proviamo dappriam con un gate -- uhm, insomma il rumore resta
+allora proviamo con un equalizzatore, però finisce che andiamo a modificare anche il suono utile
+
+reaper FIR con
 noise remover (learn - apply)
+è sempre un compromesso perchè sì perde definizione sulle alte frequenze del rullante.
+
 [Audacity - Noise Reduction](https://manual.audacityteam.org/man/noise_reduction.html)
+
+---
+
+### Esercizio E: voice_with_noise.wav
+
+
 
 ### PRO
 
@@ -195,7 +216,6 @@ compressione
 limiter dipende dal software a volte sfuggono
 quindi brick wall limiter (event horizon)
 fallo vedere con fireworks
-
 
 ## PS
 
