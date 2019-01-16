@@ -31,13 +31,6 @@ Nessun prerequisito richiesto
 * installazione (facoltativa) di Reaper (fully-functional demo, economico, multipiattaforma)
 * scaricare una cartella di samples preparati
 
-### Audacity plugins
-
-Scritti in [Nyquist](https://en.wikipedia.org/wiki/Nyquist_(programming_language))
-
-* [installing](https://wiki.audacityteam.org/wiki/Download_Nyquist_Plug-ins#install)
-* [gate audacity](https://wiki.audacityteam.org/wiki/Nyquist_Effect_Plug-ins#Noise_Gate)
-
 
 ## a che domande dobbiamo rispondere?
 
@@ -85,6 +78,12 @@ curve isofoniche accenni
 
 ## Audio digitale accenni
 
+grafico pressione microfono ADC audiofile
+
+audio campionato (frequenza di campionamento / bit depth)
+
+se anzichè un microfono ne avete due potete raccogliere il doppio delle informazioni da due punti diversi dello spazio e magari ottenere un file che si dice essere stereofonico
+
 * frequenza di campionamento / bit depth
 * mono / stero / multicanale
 *
@@ -93,7 +92,10 @@ curve isofoniche accenni
 
 audacity
 
-**Parentesi**: userò due tool in modo intercambiabile, principalmente allo scopo di mostrarvi al meglio le cose
+non esiste un unico modo per raggiungere il risultato.
+Non conosco in modo super approfondito gli strumenti ma in questa occasione mi piaceva condividere quello che ho imparato sul loro utilizzo se può essere di qualche utilità.
+
+Parentesi: userò due tool in modo intercambiabile, principalmente allo scopo di mostrarvi al meglio le cose
 e dal momento che ogni tool ha i propri punti di forza useremo l'uno o l'altro a seconda dei particolari su cui ci focalizzeremo
 cercherò di mostrarvi  come si fa sia in audacity che in reaper
 
@@ -175,9 +177,50 @@ compromesso
 
 esportazione in Reaper
 
+
+### Esercizio Bbis: snare.wav
+
+snare con gate
+
+
 ## Caratteristica 2: frequenze (contenuto spettrale)
 
-* merlo
+Finora abbiamo analizzato il fenomeno suono basandoci su una delle sue caratteristiche principali: l'ampiezza.
+
+E' anche vero che quando un corpo, sollecitato comincia a vibrare in sè lo fa in molti modi diversi.
+
+le sue superfici si distorcono nel tempo in modo molto particolari.
+Esse, spostandosi dalla propria posizione di equilibrio cominciano a spostarsi - in avanti e indietro - con diverse rapidità.
+
+In queste distorsioni sono presenti moltissimi tipi diversi di vibrazione che, trasferite per contatto al mezzo elastico, arrivano al microfono e al nostro orecchio il quale è ingrado di percepirle tutte.
+
+Non proprio tutte in realtà: il nostro orecchio è in grado di percepire e discriminare vibrazioni che abbiano una rapidità che varia tra 20 volte al secondo fino a 20 mila volte al secondo.
+
+le interpreta come **Pitch** (intonazione).
+
+L'unità di misira che sta ad indicare la rapidità di queste vibrazioni, che in altre parole e la rapidità nel susseguirsi di zone di compressione e rarefazione è l'Hertz.
+
+L'hertz è una unità di misura per descrivere la frequenza.
+
+esempio con Pure data
+
+Tutte queste vibrazioni sono simultaneamente presenti nel movimento di un corpo sollecitato da un colpo o uno sfregamento, però sono presenti con energie diverse.
+
+Tutte queste energie, distribuite su tutte queste possibili vibrazioni, concorrono a creare l'ampiezza del suono.
+
+Il suono può essere letto quindi secondo una prospettiva differente:
+
+* se prima interpretavamo il suono esaminando il livello di ampiezza complessivo su base del tempo;
+* ora potremmo esplorare cosa succede, sempre su base temporale, all'energia delle vibrazioni individuali presenti in esso.
+
+Costruiamo un altro tipo di rappresentazione dove sull'asse verticale sono indicate tutte le possibili vibrazioni.
+
+
+
+### Esempio merlo
+
+Dallo spettrogramma possiamo ricavare molte informazioni su come è il suono
+e come il **timbro**: il timbro è ciò che ci permette di distinguere una chitarra elettrica da un pianoforte, anche se questi due strumenti stanno suonando la stessa nota e con lo stesso volume.
 
 * eventualmente chirp
 crea un chirp da 20 a 20000 durata 10s
@@ -212,29 +255,33 @@ noise remover (learn - apply)
 
 ### PRO
 
-compressione
-limiter dipende dal software a volte sfuggono
-quindi brick wall limiter (event horizon)
-fallo vedere con fireworks
+
 
 ## PS
 
 aliasing - rolling shutter effect/wagon wheel effect
-guadagno, va bene nel 90% dei casi
-esempio (in cui se tiri su non viene su un rumore di fondo esagerato)
-esempio in cui vorresti tirare ancora più su ma il suono clippa
 
 processori di dinamica: compressore
 ratio, threshold, tempi di attacco e rilascio
 limiter (al massimo)
 
-Introduzione su livelli di volume
-standard ITU
-
-[loudness war]()
-[alignment level(https://en.wikipedia.org/wiki/Alignment_level) = -18dBFS
+limiter dipende dal software a volte sfuggono
+quindi brick wall limiter (event horizon)
+fallo vedere con fireworks
 
 sistema percettivo (differenze tra individui) per questo si crea uno standard di riferimento
 
+standard ITU
+
+[loudness war](https://en.wikipedia.org/wiki/Loudness_war)
+[alignment level](https://en.wikipedia.org/wiki/Alignment_level) = -18dBFS (RMS)
+
 Articolo interessante a riguardo sul sito di T.C. ELectronics
 https://www.tcelectronic.com/brand/tcelectronic/loudness-explained#googtrans(en|en)
+
+### Audacity plugins
+
+Scritti in [Nyquist](https://en.wikipedia.org/wiki/Nyquist_(programming_language))
+
+* [installing](https://wiki.audacityteam.org/wiki/Download_Nyquist_Plug-ins#install)
+* [gate audacity](https://wiki.audacityteam.org/wiki/Nyquist_Effect_Plug-ins#Noise_Gate)
