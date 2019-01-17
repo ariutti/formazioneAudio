@@ -182,7 +182,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -211,7 +211,8 @@
          sodipodi:role="line"
          id="tspan3391"
          x="366.64972"
-         y="197.95908">in</tspan></text>
+         y="197.95908"
+         style="-inkscape-font-specification:'Tom\'s New Roman, ';font-family:'Tom\'s New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">in</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:Courier;-inkscape-font-specification:'Courier Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -221,7 +222,8 @@
          sodipodi:role="line"
          id="tspan3395"
          x="111.87331"
-         y="-89.279907">out</tspan></text>
+         y="-89.279907"
+         style="-inkscape-font-specification:'Tom\'s New Roman, ';font-family:'Tom\'s New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">out</tspan></text>
     <text
        id="text3397"
        y="-15.43622"
@@ -232,14 +234,14 @@
          x="38.680893"
          id="tspan3399"
          sodipodi:role="line"
-         style="font-size:30px;fill:#808080">max</tspan></text>
+         style="font-size:30px;fill:#808080;-inkscape-font-specification:'Tom\'s New Roman, ';font-family:'Tom\'s New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">max</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:Courier;-inkscape-font-specification:'Courier Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        x="40.519608"
        y="212.11646"
        id="text3401"><tspan
-         style="font-size:30px;fill:#808080"
+         style="font-size:30px;fill:#808080;-inkscape-font-specification:'Tom\'s New Roman, ';font-family:'Tom\'s New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          sodipodi:role="line"
          id="tspan3403"
          x="40.519608"
@@ -254,14 +256,14 @@
          x="70.903107"
          id="tspan3407"
          sodipodi:role="line"
-         style="font-size:30px;fill:#808080">0</tspan></text>
+         style="font-size:30px;fill:#808080;-inkscape-font-specification:'Tom\'s New Roman, ';font-family:'Tom\'s New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">0</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:Courier;-inkscape-font-specification:'Courier Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        x="295.6951"
        y="239.07097"
        id="text3409"><tspan
-         style="font-size:30px;fill:#808080"
+         style="font-size:30px;fill:#808080;-inkscape-font-specification:'Tom\'s New Roman, ';font-family:'Tom\'s New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          sodipodi:role="line"
          id="tspan3411"
          x="295.6951"
@@ -276,7 +278,7 @@
          x="215.6951"
          id="tspan3421"
          sodipodi:role="line"
-         style="font-size:30px;fill:#ff2a2a;">th</tspan></text>
+         style="font-size:30px;fill:#ff2a2a;-inkscape-font-specification:'Tom\'s New Roman, ';font-family:'Tom\'s New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">th</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.5"
        d="m 70.628268,202.99598 144.408472,-0.7805 0,-145.14639 80.49397,-80.493973"

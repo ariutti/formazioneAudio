@@ -1,5 +1,14 @@
-## a che domande dobbiamo rispondere?
+## suona male!
 
-* finalizzando il tutto alla pubblicazione su Youtube (musica e altro hanno altre regole)
-* volume basso o alto!
-* suona male? ha un buon contenuto in frequenza?
+
+![disapponted]()
+
+
+* volume troppo basso, troppo alto
+* poco intelleggibile
+* elementi di disturbo
+
+
+## Suono
+
+> propagazione di una perturbazione</br>dello stato di quiete delle particelle</br>di un mezzo elastico

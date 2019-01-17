@@ -39,20 +39,84 @@ Nessun prerequisito richiesto
 * suona male? ha un buon contenuto in frequenza?
 
 
-## Caratteristica 1: ampiezza (perturbazione - livello - volume) (30 minuti)
+## Introduzione
 
-souno è una perturbazione della pressione dello stato di quiete delle particelle di un mezzo elastico (gassoso, solido o liquido)
-particelle di un mezzo elastico compressione e rarefazione
+Perchè un incondtro di formazioni
+
+E' capitato diverse volte negli scorsi mesi che:
+
+1. ci venissero forniti contenuti audio e audiovisivi
+2. o che magari questi contenuti li abbiamo prodotti noi registrando un video di documentazione o per una intervista;
+3. oppore abbiamo scaricato files da freesound o FMA
+
+E abbiamo dovuti comporli, integrarli insieme tra loro per ottenere un prodotto finito da integrare all'internod i una installazione, un software oppure da pubblicare su un social per comunicare un messaggio.
+
+In questi casi potrebbe esserci capitato di notare che l'audio file suonasse male per qualche motivo:
+
+1. il volume troppo basso o troppo elevato;
+2. la voce poco intellegibile per percepirne il messaggio;
+3. contiene rumori e altri elementi di disturbo che affaticano l'ascolto.
+
+Quello che vorrei fare oggi con voi è esplorare un poco questi elementi.
+
+Lo faccio su base di quella che è la mia esperienza personale, mostrandovi dei metodi e deglistrumenti che ho avuto modo di utilizzare in questi mesi.
+
+Non posso certo dire di conoscerli perfettamente ma mi piaceva comunque condividere quello che ho imparato nell'usarli visto che penso possa tornarci utile.
+
+Non si possono fare i **miracoli**: se il materiale di partenza è molto deturpato, ci si può lavorare sopra una infinità di tempo e spenderci risorse hardware e software di ogni tipo ma il risultato sarà sempre insufficiente.
+
+Per tutti gli altri casi, ovvio, non esiste un'unica possibile soluzione al problema ma quello che vediamo potrebbe essere di spunto e di stimolo per affrontarlo autonomamente.
+
+Con l'uso, l'ascolto e l'esperienza si diventerà sempre più sicuri e autonomi.
+
+
+### Definizione formale di suono (una)
+
+Souno è la propagazione della perturbazione dello stato di quiete delle particelle di un mezzo elastico (gas, liquido, oppure anche certi tipi di solidi).
+
+
+## Caratteristica 1: ampiezza
+
+
+Il suono viaggia attraverso il mezzo elastico trasferendo la vibrazione di un corpo (uno strumento musicale ad esempio) al nostro orecchio o alla capsula di un microfono.
+
+Le particelle di questi materiali normalmente si trovano in uno stato di quiete, si muovono randomicamente attorno ad una propria posizione di equilibro potremmo dire.
+
+Un corpo sollecitato (percosso) comincia a vibrare e le proprie superfici a distorcersi rispetto ai propri punti di equilibrio, trasferendo per contatto, queste vibrazioni alle particelel del mezzo in cui sono immersi.
+
+Queste particelle a loro volta scatenano un effetto domino per cui gli strati di particelle via via più distanti dalla sorgente sonora saranno anch'essi perturbati dalle stesse vibrazioni a distanza di un certo tempo.
+
+Si creano nel mezzo elestico zone di compressione e rarefazione della particelle. Queste zone si susseguono, uno dopo l'altra e macroscopicamente emerge un comportamento che è il fenomeno della propagazione della perturbazione: il suono.
+
+velocità del suono: circa 340 m/s in aria (temperatura 20 °C)
+
+forma sferica in casi ideali, con sorgente puntiforme.
 
 [gif animata]()
+
+Attenzione: è la perturbazione che si muove nello spazio. Anche le particelle lo fanno ma il loro moto è piuttosto di tipo oscillatorio attorno al punto di quiete.
+Ed si tratta di un movimento che "ricalca" in qualche modo le vibrazioni della sorgente sonora.
+
+Più esasperate le distorsioni della sorgente sonora, più dense e rarefatte rispettivamente le zone di compressione e rarefazione.
+
+La velocità della perturbazione resta invariata, quello che cambia in relazione all'energia della sorgente sonora è la quantità di particelle che si ammassano sui fronti d'onda (e viceversa per la rarefazione).
+
+Questa caratteristica può essere misurata in modo assoluto (come si farebbe con un metro per le distanze). L'unità di misura della pressione è il Pa.
+
+Quando queste onde di pressione arrivano al nostro orecchio vengono tradotte dal cervello il quale è in grado di riconoscere tutti i vari livelli di densità.
+
+La percezione del volume!
+
+L'orecchio non è tuttavia in grado di riconoscere tutte le possibili variazioni.
+
+20µPa minima ampiezza percepibile da un orecchio medio (link)[https://en.wikipedia.org/wiki/Sound_pressure#Examples_of_sound_pressure]
+100 Pa - la pressione sonora oltre alla quale si determinano pesanti danni al sistema uditivo
+
 
 ampiezza di picco
 ampiezza picco picco
 ampiezza RMS (valore efficiace)
 
-Pa (Pascal)
-20µPa minima ampiezza percepibile da un orecchio medio (link)[https://en.wikipedia.org/wiki/Sound_pressure#Examples_of_sound_pressure]
-100 Pa - la pressione sonora oltre alla quale si determinano pesanti danni al sistema uditivo
 1 Pa = 94dBSPL
 
 la risposta del nostro sistema uditivo non è sufficientemente rapida da consentire la percezione completa dell'alternarsi di picchi di compressione e rarefazione.
@@ -74,8 +138,6 @@ relativa significa con un riferimento
 più vicino al nostro sistema percettivo 1Pa - 2Pa è percepito loud il doppio proprio come 50pa - 100pa (6dB)
 20 log(valore da misurare / valore di riferimento)
 
-curve isofoniche accenni
-
 ## Audio digitale accenni
 
 grafico pressione microfono ADC audiofile
@@ -86,18 +148,19 @@ se anzichè un microfono ne avete due potete raccogliere il doppio delle informa
 
 * frequenza di campionamento / bit depth
 * mono / stero / multicanale
-*
 
-### Esercizio A: dialogo-fireworks.wav (30 minuti)
 
-audacity
-
-non esiste un unico modo per raggiungere il risultato.
-Non conosco in modo super approfondito gli strumenti ma in questa occasione mi piaceva condividere quello che ho imparato sul loro utilizzo se può essere di qualche utilità.
+## Pratica
 
 Parentesi: userò due tool in modo intercambiabile, principalmente allo scopo di mostrarvi al meglio le cose
 e dal momento che ogni tool ha i propri punti di forza useremo l'uno o l'altro a seconda dei particolari su cui ci focalizzeremo
 cercherò di mostrarvi  come si fa sia in audacity che in reaper
+
+### Esercizio A: dialogo-fireworks.wav (30 minuti)
+
+Ascoltiamo il file prima di processarlo in audacity (con un qualunque player)
+
+audacity
 
 carica il file
 ascoltiamolo
@@ -135,9 +198,11 @@ altrove effettuiamo una automazione del volume
 
 esportazione
 
----
-
 ### Esercizio B: ABC.wav (25minuti)
+
+ascoltiamolo prima di inserirlo
+
+automazione di volume in Reaper
 
 Reaper
 carichiamo
@@ -177,11 +242,15 @@ compromesso
 
 esportazione in Reaper
 
-
 ### Esercizio Bbis: snare.wav
 
 snare con gate
 
+il rumore è persistenze ed è presente assieme al suono utile. Il gate non si dimostra efficacie in questo caso.
+
+Forse è più fastidioso udire un rumore che a volte c'è e a volte no: diventa un elemento di interesse per l'orecchi il quale ci presta attenzione.
+
+Un suono, pur fastidioso ma continuo in realtà finirà per annoiarlo e il cervello a lavorare per mandarlo in sottofondo, lontano dalla parte cosciente.
 
 ## Caratteristica 2: frequenze (contenuto spettrale)
 
@@ -198,11 +267,18 @@ Non proprio tutte in realtà: il nostro orecchio è in grado di percepire e disc
 
 le interpreta come **Pitch** (intonazione).
 
-L'unità di misira che sta ad indicare la rapidità di queste vibrazioni, che in altre parole e la rapidità nel susseguirsi di zone di compressione e rarefazione è l'Hertz.
+L'unità di misura che sta ad indicare la rapidità di queste vibrazioni, che in altre parole e la rapidità nel susseguirsi di zone di compressione e rarefazione è l'**Hertz**.
 
 L'hertz è una unità di misura per descrivere la frequenza.
 
-esempio con Pure data
+esempio con Pure Data
+
+Discorso sul **timbro**
+
+Il timbro è ciò che ci permette di distinguere una chitarra elettrica da un pianoforte, anche se questi due strumenti stanno suonando la stessa nota e con lo stesso volume.
+
+esempio con Pure Data
+
 
 Tutte queste vibrazioni sono simultaneamente presenti nel movimento di un corpo sollecitato da un colpo o uno sfregamento, però sono presenti con energie diverse.
 
@@ -216,56 +292,52 @@ Il suono può essere letto quindi secondo una prospettiva differente:
 Costruiamo un altro tipo di rappresentazione dove sull'asse verticale sono indicate tutte le possibili vibrazioni.
 
 
-
 ### Esempio merlo
 
-Dallo spettrogramma possiamo ricavare molte informazioni su come è il suono
-e come il **timbro**: il timbro è ciò che ci permette di distinguere una chitarra elettrica da un pianoforte, anche se questi due strumenti stanno suonando la stessa nota e con lo stesso volume.
-
-* eventualmente chirp
-crea un chirp da 20 a 20000 durata 10s
 mostra lo spettrogramma
 fai vedere le frequenze
 
-* shamekia
-indagine sui diversi tipi di filtro, equalizzatore (peaking e shelving)
+### esempio shemekia
+
+complessità dello spettro.
+rumori (energia distribuita su tutte le frequenza)
+suoni musicali (solo le parziali armoniche)
+
+### Esercizio C: female_hum_high_tremolo.wav
+
+indagine sui diversi tipi di filtro
+* **Filtri**: passa basso, passa altro, passa banda;
+* **Equalizzatori**: peaking e shelving
+
 per enfatizzare o attenuare l'energia di certe vibrazioni
 mantendo le latre inalterate (o quasi :)
 
-### Esercizio C: female_hum_high_tremolo.wav (20 minuti)
-
 hum ronza 50Hz --> equalizzatore
+suono fastidioso a 10K --> notch o peaking
 
 ### Esercizio D: noise_snare.wav (20 minuti)
 
-proviamo dappriam con un gate -- uhm, insomma il rumore resta
-allora proviamo con un equalizzatore, però finisce che andiamo a modificare anche il suono utile
+proviamo con un equalizzatore, però finisce che andiamo a modificare anche il suono utile
 
 reaper FIR con
 noise remover (learn - apply)
 è sempre un compromesso perchè sì perde definizione sulle alte frequenze del rullante.
 
-[Audacity - Noise Reduction](https://manual.audacityteam.org/man/noise_reduction.html)
+vediamo lo stesso esempio su Audacity e facciamo un confronto. [Audacity - Noise Reduction](https://manual.audacityteam.org/man/noise_reduction.html)
 
 ---
 
 ### Esercizio E: voice_with_noise.wav
 
+Provate voi :)
 
+### Approfondimenti
 
-### PRO
+curve isofoniche (Fletcher-Munson)
 
+Compressione (th, ratio, attacco, rilascio)
 
-
-## PS
-
-aliasing - rolling shutter effect/wagon wheel effect
-
-processori di dinamica: compressore
-ratio, threshold, tempi di attacco e rilascio
-limiter (al massimo)
-
-limiter dipende dal software a volte sfuggono
+Limiter: limiter dipende dal software a volte sfuggono
 quindi brick wall limiter (event horizon)
 fallo vedere con fireworks
 
@@ -278,6 +350,9 @@ standard ITU
 
 Articolo interessante a riguardo sul sito di T.C. ELectronics
 https://www.tcelectronic.com/brand/tcelectronic/loudness-explained#googtrans(en|en)
+
+aliasing - rolling shutter effect/wagon wheel effect
+
 
 ### Audacity plugins
 

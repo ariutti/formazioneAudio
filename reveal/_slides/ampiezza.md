@@ -1,8 +1,3 @@
-## Suono
-
-propagazione di una perturbazione</br>dello stato di quiete delle particelle</br>di un mezzo elastico
-
-
 
 ## ampiezza
 
@@ -88,9 +83,36 @@ ampiezza RMS (valore efficiace)
 <!-- gate -->
 
 
+<!-- .slide: data-background-color="#fff" -->
+<svg width="60%" viewBox="0 0 1000 200">
 
-## Frequenza
+<svg data-fragment-index="1">
+	<use xlink:href="images/audio_chain.svg#violin">
+</svg>
+
+<svg class="fragment" data-fragment-index="2">
+	<use xlink:href="images/audio_chain.svg#pressure">
+</svg>
+
+<svg class="fragment" data-fragment-index="3">
+	<use xlink:href="images/audio_chain.svg#mic">
+</svg>
+
+<svg class="fragment" data-fragment-index="4">
+	<use xlink:href="images/audio_chain.svg#analog">
+</svg>
+
+<svg class="fragment" data-fragment-index="5">
+	<use xlink:href="images/audio_chain.svg#dac">
+</svg>
+
+<svg class="fragment" data-fragment-index="6">
+	<use xlink:href="images/audio_chain.svg#digital">
+</svg>
+
+</svg>
+<!-- audio chain -->
 
 
-<!-- .slide: data-background-size="contain" data-background-color="#fff" data-background-image="images/blackbird.jpg" -->
-<!-- blackbird -->
+<!-- .slide: data-background-color="#fff" -->
+![inviluppo](images/adsr.png)
