@@ -1,8 +1,7 @@
+## Audio
+
+
 ## suona male!
-
-
-![disapponted]()
-
 
 * volume troppo basso, troppo alto
 * poco intelleggibile

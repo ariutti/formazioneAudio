@@ -34,6 +34,37 @@ ampiezza RMS (valore efficiace)
 
 
 <!-- .slide: data-background-color="#fff" -->
+<svg width="60%" viewBox="0 0 1000 200">
+
+<svg data-fragment-index="1">
+	<use xlink:href="images/audio_chain.svg#violin">
+</svg>
+
+<svg class="fragment" data-fragment-index="2">
+	<use xlink:href="images/audio_chain.svg#pressure">
+</svg>
+
+<svg class="fragment" data-fragment-index="3">
+	<use xlink:href="images/audio_chain.svg#mic">
+</svg>
+
+<svg class="fragment" data-fragment-index="4">
+	<use xlink:href="images/audio_chain.svg#analog">
+</svg>
+
+<svg class="fragment" data-fragment-index="5">
+	<use xlink:href="images/audio_chain.svg#dac">
+</svg>
+
+<svg class="fragment" data-fragment-index="6">
+	<use xlink:href="images/audio_chain.svg#digital">
+</svg>
+
+</svg>
+<!-- audio chain -->
+
+
+<!-- .slide: data-background-color="#fff" -->
 <svg width="60%" viewBox="0 0 500.00 375.00">
 
 <svg class="fragment" data-fragment-index="3">
@@ -71,6 +102,56 @@ ampiezza RMS (valore efficiace)
 	<use xlink:href="images/gate.svg#IN">
 </svg>
 
+</svg>
+<!-- gate -->
+
+
+<!-- .slide: data-background-color="#fff" -->
+<svg width="60%" viewBox="0 0 450 400">
+
+<svg data-fragment-index="1">
+	<use xlink:href="images/dynamics_1.svg#ascisse">
+</svg>
+
+<svg class="fragment" data-fragment-index="2">
+	<use xlink:href="images/dynamics_1.svg#ordinate">
+</svg>
+
+<svg class="fragment" data-fragment-index="3">
+	<use xlink:href="images/dynamics_1.svg#obliqua">
+</svg>
+
+<svg class="fragment" data-fragment-index="4">
+	<use xlink:href="images/dynamics_1.svg#minmax">
+</svg>
+
+<svg class="fragment" data-fragment-index="5">
+	<use xlink:href="images/dynamics_1.svg#th">
+</svg>
+
+<svg class="fragment" data-fragment-index="6">
+	<use xlink:href="images/dynamics_1.svg#curva">
+</svg>
+
+</svg>
+<!-- gate dynamics curve -->
+
+
+<!-- .slide: data-background-color="#fff" -->
+<svg width="60%" viewBox="0 0 323.04 60.56">
+
+<svg data-fragment-index="1">
+	<use xlink:href="images/gate.svg#signal">
+</svg>
+
+<svg data-fragment-index="3">
+	<use xlink:href="images/gate.svg#OUT">
+</svg>
+
+<svg data-fragment-index="2">
+	<use xlink:href="images/gate.svg#IN">
+</svg>
+
 <svg class="fragment" data-fragment-index="4">
 	<use xlink:href="images/gate.svg#blackbox">
 </svg>
@@ -81,37 +162,6 @@ ampiezza RMS (valore efficiace)
 
 </svg>
 <!-- gate -->
-
-
-<!-- .slide: data-background-color="#fff" -->
-<svg width="60%" viewBox="0 0 1000 200">
-
-<svg data-fragment-index="1">
-	<use xlink:href="images/audio_chain.svg#violin">
-</svg>
-
-<svg class="fragment" data-fragment-index="2">
-	<use xlink:href="images/audio_chain.svg#pressure">
-</svg>
-
-<svg class="fragment" data-fragment-index="3">
-	<use xlink:href="images/audio_chain.svg#mic">
-</svg>
-
-<svg class="fragment" data-fragment-index="4">
-	<use xlink:href="images/audio_chain.svg#analog">
-</svg>
-
-<svg class="fragment" data-fragment-index="5">
-	<use xlink:href="images/audio_chain.svg#dac">
-</svg>
-
-<svg class="fragment" data-fragment-index="6">
-	<use xlink:href="images/audio_chain.svg#digital">
-</svg>
-
-</svg>
-<!-- audio chain -->
 
 
 <!-- .slide: data-background-color="#fff" -->

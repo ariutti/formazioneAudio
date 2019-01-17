@@ -2,27 +2,25 @@
 
 ## Introduzione
 
-Perchè un incondtro di formazioni
-
+Perchè un incontro di formazione sull'audio?
 E' capitato diverse volte negli scorsi mesi che:
 
 1. ci venissero forniti contenuti audio e audiovisivi
 2. o che magari questi contenuti li abbiamo prodotti noi registrando un video di documentazione o per una intervista;
-3. oppore abbiamo scaricato files da freesound o FMA
+3. oppure abbiamo scaricato files da freesound o FMA
 
-E abbiamo dovuti comporli, integrarli insieme tra loro per ottenere un prodotto finito da integrare all'internod i una installazione, un software oppure da pubblicare su un social per comunicare un messaggio.
+E abbiamo dovuti comporli tra loro per ottenere un prodotto finito da integrare all'interno  di una installazione, un software oppure da pubblicare su un social per comunicare un messaggio.
 
 In questi casi potrebbe esserci capitato di notare che l'audio file suonasse male per qualche motivo:
 
-1. il volume troppo basso o troppo elevato;
-2. la voce poco intellegibile per percepirne il messaggio;
-3. contiene rumori e altri elementi di disturbo che affaticano l'ascolto.
+1. il volume troppo basso (o troppo elevato);
+2. contiene rumori e altri elementi di disturbo che affaticano l'ascolto.
+3. la voce poco intellegibile per percepirne il messaggio;
+4. non si adatta agli altri contenuti
 
 Quello che vorrei fare oggi con voi è esplorare un poco questi elementi.
 
-Lo faccio su base di quella che è la mia esperienza personale, mostrandovi dei metodi e deglistrumenti che ho avuto modo di utilizzare in questi mesi.
-
-Non posso certo dire di conoscerli perfettamente ma mi piaceva comunque condividere quello che ho imparato nell'usarli visto che penso possa tornarci utile.
+Lo faccio su base di quella che è la mia esperienza personale, mostrandovi dei metodi e degli strumenti che ho avuto modo di utilizzare in questi mesi. Non posso certo dire di conoscerli perfettamente ma mi piaceva comunque condividere quello che ho imparato nell'usarli visto che penso possa tornarci utile.
 
 Non si possono fare i **miracoli**: se il materiale di partenza è molto deturpato, ci si può lavorare sopra una infinità di tempo e spenderci risorse hardware e software di ogni tipo ma il risultato sarà sempre insufficiente.
 
@@ -292,6 +290,49 @@ vediamo lo stesso esempio su Audacity e facciamo un confronto. [Audacity - Noise
 
 Provate voi :)
 
+potremmo scrivere silenzio --> infattibile
+abbiamo visto in reaper il gate
+vediamo in audacity anche se è più complesso
+applichiamo
+dove l'audio ha una ampiezza sotto la soglia scrive zero
+altrove lascia il file originale --> abbiamo ancora il rumore
+più fastidioso che altro --> è come se ce ne accorgessimo di più ora perchè non è più parte di un fondo costante
+al quale il nostro cervello può abituarsi e cancellarlo per noi
+il gate non va bene
+usiamo il noise reduction
+
+eventuale problema dello zero crossing
+
+step1 get noise profile
+spiegazione
+step2 remove noise
+spiegazione:
+è meglio farne di più e meno incisivi
+artifatti
+
+normalizzazione
+non funziona
+
+compressione
+
+(rivedi)
+
+[Leveler](https://ttmanual.audacityteam.org/man/Leveller) --> è una combinazione di Compressione e Limiter
+
+ulteriore passaggio di noise reduction
+
+confronto
+
+ancora qualcosa che non va in alta frequenza, un altro passaggio di noise removal
+
+ci sono basse frequenze --> usiano un EQ e filtriamole
+
+spettro della voce (lo abbiamo fatto prima?)
+
+Leveler --> se usato con settaggio di tipo hard/heavy può causare distorsioni (mostra cosa è successo sui picchi problematici)
+
+l'expander lo fai dopo
+
 ### Approfondimenti
 
 curve isofoniche (Fletcher-Munson)
@@ -301,6 +342,9 @@ Compressione (th, ratio, attacco, rilascio)
 Limiter: limiter dipende dal software a volte sfuggono
 quindi brick wall limiter (event horizon)
 fallo vedere con fireworks
+
+[Leveler](https://ttmanual.audacityteam.org/man/Leveller) --> è una combinazione di Compressione e Limiter
+
 
 sistema percettivo (differenze tra individui) per questo si crea uno standard di riferimento
 
