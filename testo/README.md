@@ -47,7 +47,7 @@ Queste particelle a loro volta scatenano un effetto domino per cui gli strati di
 
 Si creano nel mezzo elestico zone di compressione e rarefazione della particelle. Queste zone si susseguono, uno dopo l'altra e macroscopicamente emerge un comportamento che è il fenomeno della propagazione della perturbazione: il suono.
 
-velocità del suono: circa 340 m/s in aria (temperatura 20 °C)
+velocità del suono: circa 343 m/s in aria (temperatura 20 °C)
 
 forma sferica in casi ideali, con sorgente puntiforme.
 
@@ -71,6 +71,8 @@ L'orecchio non è tuttavia in grado di riconoscere tutte le possibili variazioni
 20µPa minima ampiezza percepibile da un orecchio medio (link)[https://en.wikipedia.org/wiki/Sound_pressure#Examples_of_sound_pressure]
 100 Pa - la pressione sonora oltre alla quale si determinano pesanti danni al sistema uditivo
 
+100 Pa --> 135 dBspl
+20 µPa --> 0 dBspl
 
 ampiezza di picco
 ampiezza picco picco
@@ -102,6 +104,8 @@ più vicino al nostro sistema percettivo 1Pa - 2Pa è percepito loud il doppio p
 grafico pressione microfono ADC audiofile
 
 audio campionato (frequenza di campionamento / bit depth)
+
+16 bit --> dinamica rappresentabile dal supporto di 98dB 6.02 * 16 * 1.47 (ogni bit in più sono 6 dB in più)
 
 se anzichè un microfono ne avete due potete raccogliere il doppio delle informazioni da due punti diversi dello spazio e magari ottenere un file che si dice essere stereofonico
 
@@ -336,6 +340,7 @@ l'expander lo fai dopo
 ### Approfondimenti
 
 curve isofoniche (Fletcher-Munson)
+Il condotto uditivo del nostro orecchio è lungo 3 cm e ha una risonanza pari a 3KHz - 4KHz (amplificazione 10dB)
 
 Compressione (th, ratio, attacco, rilascio)
 
