@@ -80,6 +80,9 @@ ampiezza RMS (valore efficiace)
 
 1 Pa = 94dBSPL
 
+la nostra percezione uditiva non è lineare rispetto a variazioni di pressione. Si muove di più con il valore efficiacie (il quadrato della pressione sonora).
+Il valore efficiacie rappresenta il valore che la grandezza in esame dovrebbe avere se fosse una costante per generare gli stessi effetti energetici.
+
 la risposta del nostro sistema uditivo non è sufficientemente rapida da consentire la percezione completa dell'alternarsi di picchi di compressione e rarefazione.
 Questo perchè il nostro orecchio lavora su delle medie (RMS - media quadratica sotto radice) temporali effettuate per altro ad intervalli regolari di tempo ( 50 ms)
 la scala logaritmica si usa per comodità di rappresentazione (il range che ci porta da 20µPa a 100Pa si estende su 8 oridini di grandezza metre una scala logaritmica comprime il tutto).
